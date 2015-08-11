@@ -33,6 +33,7 @@ RUN wget https://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb \
 RUN git clone https://github.com/esl/MongooseIM.git -b $MONGOOSEIM_VERSION /opt/mongooseim \
     && cd /opt/mongooseim \
     && make rel \
+    && make configure with-mysql with-pgsql with-redis with-cassandra \
     && rm -rf /opt/mongooseim/rel/mongooseim/log \
     && ln -s /data/log /opt/mongooseim/rel/mongooseim/log
 
