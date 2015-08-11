@@ -1,5 +1,7 @@
 # mongooseim-docker
 
+<img align="left" src="https://www.erlang-solutions.com/sites/all/themes/erlang/img/mongoose/MongooseIM_blue.png"</img>
+
 MongooseIM server stable version ([other versions](#other-versions))
 
 MongooseIM is Erlang Solutions' robust and efficient XMPP server aimed at large installations. Specifically designed for enterprise purposes, it is fault-tolerant, can utilize resources of multiple clustered machines and easily scale in need of more capacity (by just adding a box/VM). It provides support for WebSockets and reimplemented BOSH.
